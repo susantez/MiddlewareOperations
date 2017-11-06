@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MiddlewareOperations:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MiddlewareOperations_Web_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MiddlewareOperations" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.8.1/gwt-servlet.jar" />
+        </element>
+      </element>
+      <element id="gwt-compiler-output" facet="MiddlewareOperations/gwt/GWT" />
+      <element id="javaee-facet-resources" facet="MiddlewareOperations/web/Web" />
+    </root>
+  </artifact>
+</component>
